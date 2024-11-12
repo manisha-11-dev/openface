@@ -13,7 +13,7 @@
 #   docker tag <tag of last container> bamos/ubuntu-opencv-dlib-torch:ubuntu_14.04-opencv_2.4.11-dlib_18.16-torch_2016.03.19
 #   docker push bamos/ubuntu-opencv-dlib-torch:ubuntu_14.04-opencv_2.4.11-dlib_18.16-torch_2016.03.19
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Brandon Amos <brandon.amos.cs@gmail.com>
 
 RUN apt-get update && apt-get install -y \
